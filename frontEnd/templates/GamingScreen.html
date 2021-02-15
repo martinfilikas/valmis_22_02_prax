@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="../css/Pages.css">
+
+<form method="POST">
+    <p> You are playing against AI </p>
+
+    <p> Lets see if your guess matched with AI </p>
+
+    <p> Your name: {$firstLast} </p>
+
+    <div> Guess a number between 1-100: <label>
+        <input type="text" name="guess">
+    </label> <br> <br>
+
+    <div> You guessed: {$usersGuess} </div> <br>
+
+    <div> Number of guesses: {$numberOfGuesses}  </div> <br>
+
+    <div> {$answer}  </div>
+
+<!--    <div> Random number: {{$randomNum}}  </div>-->
+
+    <input type="hidden" name="firstName" value={$firstName}>
+        <br> <br><input type="submit" name="submit" class="submitButton"> </div>
+</form>

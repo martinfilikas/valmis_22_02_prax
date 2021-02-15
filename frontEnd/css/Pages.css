@@ -1,0 +1,77 @@
+
+.authorsText{
+    padding-top: 15%;
+}
+
+.gameRules{
+    margin:auto;
+    display:block;
+}
+
+.backButton {
+
+    margin:auto;
+    display:block;
+    height:3em;
+    width:8em;
+    background-color: red;
+    border-radius: .25rem;
+    border-color: red;
+    font-weight: bold;
+}
+
+.container {
+    margin:0 auto; /* this will center the page */
+    width:960px; /*  use your width here */
+    /*font-weight: bold;*/
+}
+
+
+
+.content{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.submitButton{
+    margin:auto;
+    display:block;
+    height:3em;
+    width:8em;
+    background-color: greenyellow;
+    border-radius: .25rem;
+    border-color: greenyellow;
+    font-weight: bold;
+}
+
+.goToScoreBoard{
+    margin:auto;
+    display:block;
+    height:3em;
+    width:8em;
+    background-color: greenyellow;
+    border-radius: .25rem;
+    border-color: greenyellow;
+    font-weight: bold;
+}
+
+.helpButton{
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+}
+
+.table{
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.table{
+  margin: 0px auto;
+}

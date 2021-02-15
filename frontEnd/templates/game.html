@@ -1,0 +1,26 @@
+
+    <p> You are playing against AI </p>
+
+    <p> Lets see if your guess matched with AI </p>
+
+    <p> Your name: {$firstName} </p>
+
+    <div> Guess a number between 1-100: <label>
+        <input type="text" name="guess">
+    </label> <br> <br>
+
+        <div> You guessed: {$guess} </div> <br>
+
+        <div> Number of guesses: {$numberOfGuesses}  </div> <br>
+
+        <div> {if $result == true}
+            <span style="color: green; ">Your guess was: CORRECT !</span>
+            {elseif $guess > $randomNumber}
+            <span style="color: red; ">Your guess was: Too High</span>
+            {elseif $guess < $randomNumber}
+            <span style="color: blue; ">Your guess was: Too Low</span>
+            {/if}
+        </div>
+
+        <input type="hidden" name="firstName" value={$firstName}>
+        <br> <br><input type="submit" name="submit" class="submitButton"> </div>

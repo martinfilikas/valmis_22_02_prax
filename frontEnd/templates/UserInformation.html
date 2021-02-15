@@ -1,0 +1,36 @@
+<html lang="en" style="background: powderblue" class="content">
+<link rel="stylesheet" href="../css/Pages.css">
+    <script>
+        function validateForm() {
+            const x = document.forms["myForm"]["firstName"].value;
+            if (x === "") {
+                alert("Name cannot be empty ! Please insert valid name.");
+                return false;
+            } else if (x.length > 20){
+                alert("Your name is too long, please insert shorter name.");
+                return false;
+            }else if (x.length < 3){
+                alert("Your name is too short, please insert longer name.");
+                return false;
+            }else if (x.includes("|")){
+                alert("Your name contains illegal symbols.");
+                return false;
+            }else if (x.length === 0){
+                alert("Name cannot be empty.");
+                return false;}
+        }
+    </script>
+
+
+<body style="text-align:center; padding-top: 15%;">
+
+<form name="myForm" action="../../../nrgame/backEnd/Game.php" target="_self" onsubmit="return validateForm()" method="POST">
+    Please insert your name: <label>
+    <input type="text" name="firstName"> <br><br>
+</label><br>
+
+    <input type="submit" name="submit" class="submitButton">
+
+</form>
+</body>
+
