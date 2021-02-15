@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.38, created on 2021-02-16 00:06:47
+/* Smarty version 3.1.38, created on 2021-02-16 00:13:54
   from 'E:\Xamp\htdocs\nrgame\frontEnd\templates\GameDown.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.38',
-  'unifunc' => 'content_602afe87883717_29093116',
+  'unifunc' => 'content_602b0032428253_60992780',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2feeadeb3a879dce31469a50ea7e3e396d49c030' => 
     array (
       0 => 'E:\\Xamp\\htdocs\\nrgame\\frontEnd\\templates\\GameDown.html',
-      1 => 1613430406,
+      1 => 1613430724,
       2 => 'file',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_602afe87883717_29093116 (Smarty_Internal_Template $_smarty_tpl) {
+function content_602b0032428253_60992780 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="../css/Pages.css">
-<form action="../../../nrgame/frontEnd/templates/main.html" method="post">
+<form action="../../../nrgame/frontEnd/templates/index.html" method="post">
     <button type="submit" class="backButton">EXIT</button><br>
 </form>
 <form action="../../../nrgame/frontEnd/Help.html" method="POST">

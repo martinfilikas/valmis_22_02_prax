@@ -28,47 +28,8 @@ $smarty->assign("randomNumber", $randomNumber);
 
 $smarty->display('../nrgame/frontEnd/templates/main.html');
 
-
-
 ?>
 
 
 
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<body style="background: powderblue">-->
-<!--<link rel="stylesheet" href="frontEnd/css/MainScreen.css">-->
-<!---->
-<!--<h1 class="welcome">Welcome to number guessing game</h1>-->
-<!---->
-<!--<form action="backEnd/UserInformation.php" method="POST">-->
-<!--<button  type="submit" class="playButton"><b>PLAY</b></button><br>-->
-<!--</form>-->
-<!---->
-<!--<form action="backEnd/HighScores.php" method="POST">-->
-<!--<button type="submit" class="scoreBoardButton"><b>SCOREBOARD</button><br>-->
-<!--</form>-->
-<!---->
-<!--<form action="frontEnd/Exit.html" method="POST">-->
-<!--    <button type="submit" class="exitButton"><b>EXIT</b></button><br>-->
-<!--</form>-->
-<!---->
-<!--<form action="frontEnd/Help.html" method="POST">-->
-<!--    <button style="position: fixed;-->
-<!--	left: 5%;-->
-<!--	bottom: 5%;-->
-<!--	border-radius: 50%;-->
-<!--	padding: 20px 30px;-->
-<!--	background-color: blue;-->
-<!--	border-color: blue;-->
-<!--	font-size: 40px;-->
-<!--	font-weight: bold;" type="submit" class="helpButton" ><b>?</b></button><br><b></b><br>-->
-<!--</form>-->
-<!---->
-<!--<form action="frontEnd/Authors.html" method="POST">-->
-<!--<button type="submit" class="authorsButton"><b>AUTHORS</b></button><br>-->
-<!--</form>-->
-<!---->
-<!--</body>-->
-<!--</html>-->
 
