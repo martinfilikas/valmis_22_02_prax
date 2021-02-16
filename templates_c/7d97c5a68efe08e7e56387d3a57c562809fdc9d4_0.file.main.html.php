@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.38, created on 2021-02-16 00:13:54
+/* Smarty version 3.1.38, created on 2021-02-16 16:17:53
   from 'E:\Xamp\htdocs\nrgame\frontEnd\templates\main.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.38',
-  'unifunc' => 'content_602b003240cae0_05945180',
+  'unifunc' => 'content_602be221253b65_94094855',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7d97c5a68efe08e7e56387d3a57c562809fdc9d4' => 
     array (
       0 => 'E:\\Xamp\\htdocs\\nrgame\\frontEnd\\templates\\main.html',
-      1 => 1613430530,
+      1 => 1613488673,
       2 => 'file',
     ),
   ),
@@ -22,8 +22,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../../../nrgame/frontEnd/templates/GameDown.html' => 1,
   ),
 ),false)) {
-function content_602b003240cae0_05945180 (Smarty_Internal_Template $_smarty_tpl) {
-?><!DOCTYPE html>
+function content_602be221253b65_94094855 (Smarty_Internal_Template $_smarty_tpl) {
+?><!--Gaming Screen-->
+<!DOCTYPE html>
 <html lang="en">
 <header >
     <link rel='stylesheet' type='text/css' href='../../../nrgame/frontEnd/css/Pages.css'>

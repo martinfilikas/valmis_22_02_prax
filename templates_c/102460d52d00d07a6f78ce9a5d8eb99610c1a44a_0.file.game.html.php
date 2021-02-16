@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.38, created on 2021-02-12 18:01:38
+/* Smarty version 3.1.38, created on 2021-02-16 14:03:11
   from 'E:\Xamp\htdocs\nrgame\frontEnd\templates\game.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.38',
-  'unifunc' => 'content_6026b4726ea342_66845262',
+  'unifunc' => 'content_602bc28fa27ba0_01664024',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '102460d52d00d07a6f78ce9a5d8eb99610c1a44a' => 
     array (
       0 => 'E:\\Xamp\\htdocs\\nrgame\\frontEnd\\templates\\game.html',
-      1 => 1613148810,
+      1 => 1613476493,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6026b4726ea342_66845262 (Smarty_Internal_Template $_smarty_tpl) {
+function content_602bc28fa27ba0_01664024 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     <p> You are playing against AI </p>
 

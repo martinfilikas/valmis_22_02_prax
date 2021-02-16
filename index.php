@@ -27,7 +27,6 @@ $smarty->assign("flowControl", $flowControl);
 $smarty->assign("randomNumber", $randomNumber);
 
 $smarty->display('../nrgame/frontEnd/templates/main.html');
-
 ?>
 
 
