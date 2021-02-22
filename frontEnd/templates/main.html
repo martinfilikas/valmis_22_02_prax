@@ -2,12 +2,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <header >
-    <link rel='stylesheet' type='text/css' href='../../../nrgame/frontEnd/css/Pages.css'>
+    <link rel='stylesheet' type='text/css' href='../../../nrgame/frontEnd/css/pages.css'>
 </header>
 <body style="background: powderblue; text-align:center; padding-top: 15%;">
 <form method="POST" action="../../../nrgame/index.php">
-    {include file= '../../../nrgame/frontEnd/templates/game.html'}
-    {include file= '../../../nrgame/frontEnd/templates/GameDown.html'}
+    {if !isset($flowControl)}
+    {$flowControl = "game"}
+    {/if}
+    {include file= '../../../nrgame/frontEnd/templates/'.{$flowControl}.'.html'} <br> // siin vist . liigne v midagi
+    {include file= '../../../nrgame/frontEnd/templates/gameDown.html'}
     <input type="hidden" name="flowControl" value={$flowControl}>
 </form>
 </body>

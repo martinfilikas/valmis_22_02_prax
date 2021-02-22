@@ -1,6 +1,6 @@
 <?php
 /* Smarty version 3.1.38, created on 2021-02-01 13:28:21
-  from 'E:\Xamp\htdocs\nrgame\backEnd\GameOver.php' */
+  from 'E:\Xamp\htdocs\nrgame\backEnd\gameOver.php' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
@@ -11,7 +11,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
     '58c950412d8c2e71d350f5618d36e956ad2b8d7a' => 
     array (
-      0 => 'E:\\Xamp\\htdocs\\nrgame\\backEnd\\GameOver.php',
+      0 => 'E:\\Xamp\\htdocs\\nrgame\\backEnd\\gameOver.php',
       1 => 1612182499,
       2 => 'file',
     ),

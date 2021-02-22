@@ -1,6 +1,6 @@
 <?php
 /* Smarty version 3.1.38, created on 2021-02-11 18:52:18
-  from 'E:\Xamp\htdocs\nrgame\backEnd\FailedGame.php' */
+  from 'E:\Xamp\htdocs\nrgame\backEnd\failedGame.php' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
@@ -11,7 +11,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
     '24128e874b39759630e2450b39137d3986adb498' => 
     array (
-      0 => 'E:\\Xamp\\htdocs\\nrgame\\backEnd\\FailedGame.php',
+      0 => 'E:\\Xamp\\htdocs\\nrgame\\backEnd\\failedGame.php',
       1 => 1613065798,
       2 => 'file',
     ),

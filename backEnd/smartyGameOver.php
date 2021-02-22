@@ -6,4 +6,4 @@ $smarty->cache_lifetime = 120;
 
 $smarty->assign("firstLast", $_SESSION["firstName"]);
 
-$smarty->display('../../nrgame/backEnd/GameOver.php');
+$smarty->display('../../nrgame/backEnd/gameOver.php');

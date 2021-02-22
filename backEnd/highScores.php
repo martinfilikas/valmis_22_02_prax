@@ -1,5 +1,5 @@
 <?php
-echo "<link rel='stylesheet' type='text/css' href='../../nrgame/frontEnd/css/Pages.css'>";
+echo "<link rel='stylesheet' type='text/css' href='../frontEnd/css/pages.css'>";
 ?>
 
 <h1 style="text-align:center;padding-top: 15%;">TOP 10 PLAYERS</h1>
@@ -20,7 +20,7 @@ echo "<table  class='table' style='margin-left: auto;
 
 include '../backEnd/connection.php';
 
-$sql = "SELECT * FROM nrgame.highscorestable ORDER BY Score LIMIT 10";
+$sql = "SELECT * FROM nrgame.highscorestable ORDER BY Score DESC LIMIT 10";
 $result = $conn->query($sql);
 $place = 1;  // 0 place ei saa olla
 while ($row = $result->fetch_assoc()) {
@@ -35,7 +35,7 @@ echo "</table >";
 
 $conn->close();
 
-include '../frontEnd/templates/HighScores.html' ;
+include '../frontEnd/templates/highScores.html';
 ?>
 
 

@@ -12,15 +12,19 @@
         <div> You guessed: {$guess} </div> <br>
 
         <div> Number of guesses: {$numberOfGuesses}  </div> <br>
-
         <div> {if $result == true}
             <span style="color: green; ">Your guess was: CORRECT !</span>
             {elseif $guess > $randomNumber}
             <span style="color: red; ">Your guess was: Too High</span>
-            {elseif $guess < $randomNumber}
+            {elseif !empty($guess) && $guess < $randomNumber}
             <span style="color: blue; ">Your guess was: Too Low</span>
+<!--            addi siia et kui on tühi siis näita et on tühi tekstiga-->
             {/if}
         </div>
-
+        <input type="hidden" name="numberOfGuesses" value={$numberOfGuesses}>
+        <input type="hidden" name="randomNumber" value={$randomNumber}>
         <input type="hidden" name="firstName" value={$firstName}>
         <br> <br><input type="submit" name="submit" class="submitButton"> </div>
+
+
+<!--    flowcontrol vaja addida ???-->

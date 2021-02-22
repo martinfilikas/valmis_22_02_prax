@@ -1,7 +1,7 @@
 <?php
 include 'smartyGameOver.php';
 if($_SESSION["gameOver"]) : ?>
-    <form action="HighScores.php" method="POST">
+    <form action="highScores.php" method="POST">
         Congratulations {$firstLast} !<br>
         You won!<br>
         <?php

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.38, created on 2021-02-22 00:22:53
+/* Smarty version 3.1.38, created on 2021-02-22 00:29:12
   from 'E:\Xamp\htdocs\nrgame\frontEnd\templates\gameDown.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.38',
-  'unifunc' => 'content_6032eb4d49f8d6_15329366',
+  'unifunc' => 'content_6032ecc8927968_03976894',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '2feeadeb3a879dce31469a50ea7e3e396d49c030' => 
+    'abb7b8b9c65127c40631d1ff5f7e9e9df25519ae' => 
     array (
       0 => 'E:\\Xamp\\htdocs\\nrgame\\frontEnd\\templates\\gameDown.html',
-      1 => 1613949099,
+      1 => 1613950088,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6032eb4d49f8d6_15329366 (Smarty_Internal_Template $_smarty_tpl) {
-?><link rel="stylesheet" href="../css/Pages.css">
+function content_6032ecc8927968_03976894 (Smarty_Internal_Template $_smarty_tpl) {
+?><link rel="stylesheet" href="../css/pages.css">
 <br><form action="../../../nrgame/frontEnd/templates/index.html" method="POST">
     <button style="margin:auto;
     display:block;
@@ -34,7 +34,7 @@ function content_6032eb4d49f8d6_15329366 (Smarty_Internal_Template $_smarty_tpl)
     type="submit" class="backButton">EXIT</button><br>
 </form>
 
-<form action="../../../nrgame/frontEnd/Help.html" method="POST">
+<form action="../help.html" method="POST">
     <button style="position: fixed;
 	left: 5%;
 	bottom: 5%;

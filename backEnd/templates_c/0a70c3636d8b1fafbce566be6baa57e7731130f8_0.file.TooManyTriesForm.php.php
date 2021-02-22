@@ -24,7 +24,7 @@ function content_601aa7a6e97636_87456158 (Smarty_Internal_Template $_smarty_tpl)
 echo '<?php ';?>
 //include '../../backEnd/Game.php' <?php echo '?>';?>
 
-<form action="../../../nrgame/backEnd/HighScores.php" method="POST">
+<form action="../highScores.php" method="POST">
     Sorry <?php echo '<?php ';?>
 echo $_SESSION["firstName"] . " " .$_SESSION["lastName"] <?php echo '?>';?>
 !<br>
